@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fengjutian/FeTools/issues"
   },
-  "homepage": "https://github.com/fengjutian/FeTools#readme"
+  "homepage": "https://github.com/fengjutian/FeTools#readme",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
 }

@@ -26,7 +26,7 @@
 
     /* 模块 */
     "module": "commonjs",                                /* 指定生成的模块代码。 */
-    // "rootDir": "./",                                  /* 指定源文件中的根文件夹。 */
+    "rootDir": "./src",                                  /* 指定源文件中的根文件夹。 */
     // "moduleResolution": "node10",                     /* 指定 TypeScript 如何从给定的模块说明符查找文件。 */
     // "baseUrl": "./",                                  /* 指定基目录以解析非相关模块名称。 */
     // "paths": {},                                      /* 指定一组将导入重新映射到其他查找位置的条目。 */
@@ -35,7 +35,7 @@
     // "types": [],                                      /* 指定要包含的类型包名称，而无需在源文件中引用。 */
     // "allowUmdGlobalAccess": true,                     /* 允许从模块访问 UMD 变量全局。 */
     // "moduleSuffixes": [],                             /* 解析模块时要搜索的文件名后缀列表。 */
-    // "allowImportingTsExtensions": true,               /* Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set. */
+    "allowImportingTsExtensions": true,               /* Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set. */
     // "resolvePackageJsonExports": true,                /* Use the package.json 'exports' field when resolving package imports. */
     // "resolvePackageJsonImports": true,                /* Use the package.json 'imports' field when resolving imports. */
     // "customConditions": [],                           /* Conditions to set in addition to the resolver-specific defaults when resolving imports. */
@@ -57,7 +57,7 @@
     // "outFile": "./",                                  /* 指定将所有输出捆绑到一个 JavaScript 文件中的文件。如果 “declaration” 为 true，还要指定一个捆绑所有 .d.ts 输出的文件。 */
     "outDir": "./dist",                                   /* 为所有已发出的文件指定输出文件夹。 */
     // "removeComments": true,                           /* 禁用发出注释。 */
-    // "noEmit": true,                                   /* 禁用从编译发出文件。 */
+    "noEmit": true,                                   /* 禁用从编译发出文件。 */
     // "importHelpers": true,                            /* 允许每个项目从 tslib 导入帮助程序函数一次，而不是将它们包含在每个文件中。 */
     // "importsNotUsedAsValues": "remove",               /* 指定仅用于类型的导入的发出/检查行为。 */
     // "downlevelIteration": true,                       /* 发出更合规但更详细且性能较低的 JavaScript 进行迭代。 */
@@ -76,7 +76,7 @@
     /* 互操作约束 */
     // "isolatedModules": true,                          /* 确保可以安全地转译每个文件，而无需依赖其他导入。 */
     // "verbatimModuleSyntax": true,                     /* Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting. */
-    // "allowSyntheticDefaultImports": true,             /* 当模块没有默认导出时，允许“从 y 导入 x”。 */
+    "allowSyntheticDefaultImports": true,             /* 当模块没有默认导出时，允许“从 y 导入 x”。 */
     "esModuleInterop": true,                             /* 发出其他 JavaScript 以轻松支持导入 CommonJS 模块。这将启用 “allowSyntheticDefaultImports” 以实现类型兼容性。 */
     // "preserveSymlinks": true,                         /* 禁用将符号链接解析为其实际路径。这会关联到节点中的同一标志。 */
     "forceConsistentCasingInFileNames": true,            /* 确保导入中的大小写正确。 */
