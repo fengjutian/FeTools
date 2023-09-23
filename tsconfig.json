@@ -35,7 +35,7 @@
     // "types": [],                                      /* 指定要包含的类型包名称，而无需在源文件中引用。 */
     // "allowUmdGlobalAccess": true,                     /* 允许从模块访问 UMD 变量全局。 */
     // "moduleSuffixes": [],                             /* 解析模块时要搜索的文件名后缀列表。 */
-    "allowImportingTsExtensions": true,               /* Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set. */
+    // "allowImportingTsExtensions": true,               /* Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set. */
     // "resolvePackageJsonExports": true,                /* Use the package.json 'exports' field when resolving package imports. */
     // "resolvePackageJsonImports": true,                /* Use the package.json 'imports' field when resolving imports. */
     // "customConditions": [],                           /* Conditions to set in addition to the resolver-specific defaults when resolving imports. */
@@ -57,7 +57,7 @@
     // "outFile": "./",                                  /* 指定将所有输出捆绑到一个 JavaScript 文件中的文件。如果 “declaration” 为 true，还要指定一个捆绑所有 .d.ts 输出的文件。 */
     "outDir": "./dist",                                   /* 为所有已发出的文件指定输出文件夹。 */
     // "removeComments": true,                           /* 禁用发出注释。 */
-    "noEmit": true,                                   /* 禁用从编译发出文件。 */
+    // "noEmit": true,                                   /* 禁用从编译发出文件。 */
     // "importHelpers": true,                            /* 允许每个项目从 tslib 导入帮助程序函数一次，而不是将它们包含在每个文件中。 */
     // "importsNotUsedAsValues": "remove",               /* 指定仅用于类型的导入的发出/检查行为。 */
     // "downlevelIteration": true,                       /* 发出更合规但更详细且性能较低的 JavaScript 进行迭代。 */

@@ -1,4 +1,4 @@
-import { checkCardNum } from './Card.ts';
+import { checkCardNum }  from './Card';
 
 
 export { checkCardNum }

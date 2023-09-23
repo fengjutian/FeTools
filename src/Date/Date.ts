@@ -1,11 +1,19 @@
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
+
+/**
+ * 当前时间
+ * @returns 
+ */
+export const Now = () => {
+	return dayjs();
+}
 
 
 
 
 
 /**
- * 时间戳转化为时间
+ * 时间戳转化为时间   
  * @param Timestamp 
  * @returns 
  */
