@@ -1,4 +1,4 @@
-import { checkCardNum }  from './Card';
+import { CheckCardNum }  from './Card';
 
-
-export { checkCardNum }
+console.log('CheckCardNum', CheckCardNum)
+export { CheckCardNum }

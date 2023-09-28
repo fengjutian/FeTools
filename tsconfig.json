@@ -11,7 +11,7 @@
     // "disableReferencedProjectLoad": true,             /* 减少 TypeScript 自动加载的项目数。 */
 
     /* 语言和环境 */
-    "target": "es2016",                                  /* 为发出的 JavaScript 设置 JavaScript 语言版本并包含兼容的库声明。 */
+    "target": "ES2016",                                  /* 为发出的 JavaScript 设置 JavaScript 语言版本并包含兼容的库声明。 */
     // "lib": [],                                        /* 指定一组描述目标运行时环境的捆绑库声明文件。 */
     // "jsx": "preserve",                                /* 指定生成的 JSX 代码。 */
     // "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
@@ -25,11 +25,13 @@
     // "moduleDetection": "auto",                        /* 控制用于检测模块格式 JS 文件的方法。 */
 
     /* 模块 */
-    "module": "commonjs",                                /* 指定生成的模块代码。 */
+    "module": "ES6",                                /* 指定生成的模块代码。 */
     "rootDir": "./src",                                  /* 指定源文件中的根文件夹。 */
-    // "moduleResolution": "node10",                     /* 指定 TypeScript 如何从给定的模块说明符查找文件。 */
+    // "moduleResolution": "Node16",                     /* 指定 TypeScript 如何从给定的模块说明符查找文件。 */
     // "baseUrl": "./",                                  /* 指定基目录以解析非相关模块名称。 */
-    // "paths": {},                                      /* 指定一组将导入重新映射到其他查找位置的条目。 */
+    "paths": {
+      "dayjs": ["./node_modules/dayjs/index.d.ts"] 
+    },                                      /* 指定一组将导入重新映射到其他查找位置的条目。 */
     // "rootDirs": [],                                   /* 允许在解析模块时将多个文件夹视为一个文件夹。 */
     // "typeRoots": [],                                  /* 指定多个行为类似于 “./node_modules/@types” 的文件夹。 */
     // "types": [],                                      /* 指定要包含的类型包名称，而无需在源文件中引用。 */

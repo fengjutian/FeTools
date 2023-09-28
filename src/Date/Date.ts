@@ -1,4 +1,4 @@
-import dayjs from 'dayjs';
+import dayjs from 'dayjs'
 
 /**
  * 当前时间
@@ -7,10 +7,6 @@ import dayjs from 'dayjs';
 export const Now = () => {
 	return dayjs();
 }
-
-
-
-
 
 /**
  * 时间戳转化为时间   

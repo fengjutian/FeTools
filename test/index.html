@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../dist/main.js"></script>
+    <!-- <script type="module" src="../dist/main.js"></script> -->
 </head>
 <body>
     <script type="module">
-        import { checkCardNum } from './dist/main.js';
+        // import { CheckCardNum } from '../dist/Card.js';
+
+        import { timestamp2time } from '/dist/Date/Date.js';
+
+        console.log(timestamp2time('1111'))
 
 
-        console.log(checkCardNum('123456'))
+        // console.log(CheckCardNum('320322199101013477'))
 
     </script>
 </body>
